@@ -1,0 +1,75 @@
+feature calt {
+
+    sub b uni0334 by uni1D6C;
+    sub d uni0334 by uni1D6D;
+    sub f uni0334 by uni1D6E;
+    sub m uni0334 by uni1D6F;
+    sub n uni0334 by uni1D70;
+    sub p uni0334 by uni1D71;
+    sub r uni0334 by uni1D72;
+    sub uni027E uni0334 by uni1D73;
+    sub s uni0334 by uni1D74;
+    sub t uni0334 by uni1D75;
+    sub z uni0334 by uni1D76;
+    sub numbersign ampersand by ampersand.ss03;
+    sub @calt3 Iota' lookup calt_frac_ordn_1;
+    sub @calt4 Upsilon' lookup calt_frac_ordn_1;
+    sub @calt3 iota.sc' lookup calt_frac_ordn_1;
+    sub @calt4 upsilon.sc' lookup calt_frac_ordn_1;
+    sub @calt' lookup calt_frac_ordn_1 @calt5;
+    sub @calt5 @calt' lookup calt_frac_ordn_1;
+    sub @calt' lookup calt_frac_ordn_1 space @calt5;
+    sub @calt5 space @calt' lookup calt_frac_ordn_1;
+    sub @calt_cpsp @calt2' lookup calt_frac_ordn_1;
+    sub @calt6 @calt2' lookup calt_frac_ordn_1;
+
+    @de = [adieresis odieresis udieresis Adieresis Odieresis Udieresis germandbls];
+    @DE = [adieresis.bold odieresis.bold udieresis.bold Adieresis.bold Odieresis.bold Udieresis.bold germandbls.bold];
+
+    #EU languages: Albanian, Bosnian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, Hungarian, Italian, Lithuanian, Montenegrin, Norwegian, Polish, Portugese, Romanian, Serbian, Slovene, Spanish, Swedish, Turkish
+    @eu = [aring Scaron OE Zcaron Aring scaron oe zcaron Ydieresis Agrave Aacute Acircumflex Atilde AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Ograve Oacute Ocircumflex Otilde Oslash Ugrave Uacute Ucircumflex Yacute agrave aacute acircumflex atilde ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis ntilde ograve oacute ocircumflex otilde oslash ugrave uacute ucircumflex yacute ydieresis Abreve abreve Aogonek aogonek Cacute cacute Ccaron ccaron Dcaron dcaron Dcroat dcroat Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gbreve gbreve Iogonek iogonek Idotaccent dotlessi IJ ij Lslash lslash Nacute nacute Ncaron ncaron Ohungarumlaut ohungarumlaut Rcaron rcaron Sacute sacute Scedilla scedilla Tcaron tcaron Umacron umacron Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Zacute zacute Zdotaccent zdotaccent uni01C4 uni01C5 uni01C6 uni01C7 uni01C8 uni01C9 uni01CA uni01CB uni01CC uni01F1 uni01F2 uni01F3 Scommaaccent scommaaccent Tcommaaccent tcommaaccent];
+    @EU = [aring.bold Scaron.bold OE.bold Zcaron.bold Aring.bold scaron.bold oe.bold zcaron.bold Ydieresis.bold Agrave.bold Aacute.bold Acircumflex.bold Atilde.bold AE.bold Ccedilla.bold Egrave.bold Eacute.bold Ecircumflex.bold Edieresis.bold Igrave.bold Iacute.bold Icircumflex.bold Idieresis.bold Ntilde.bold Ograve.bold Oacute.bold Ocircumflex.bold Otilde.bold Oslash.bold Ugrave.bold Uacute.bold Ucircumflex.bold Yacute.bold agrave.bold aacute.bold acircumflex.bold atilde.bold ae.bold ccedilla.bold egrave.bold eacute.bold ecircumflex.bold edieresis.bold igrave.bold iacute.bold icircumflex.bold idieresis.bold ntilde.bold ograve.bold oacute.bold ocircumflex.bold otilde.bold oslash.bold ugrave.bold uacute.bold ucircumflex.bold yacute.bold ydieresis.bold Abreve.bold abreve.bold Aogonek.bold aogonek.bold Cacute.bold cacute.bold Ccaron.bold ccaron.bold Dcaron.bold dcaron.bold Dcroat.bold dcroat.bold Edotaccent.bold edotaccent.bold Eogonek.bold eogonek.bold Ecaron.bold ecaron.bold Gbreve.bold gbreve.bold Iogonek.bold iogonek.bold Idotaccent.bold dotlessi.bold IJ.bold ij.bold Lslash.bold lslash.bold Nacute.bold nacute.bold Ncaron.bold ncaron.bold Ohungarumlaut.bold ohungarumlaut.bold Rcaron.bold rcaron.bold Sacute.bold sacute.bold Scedilla.bold scedilla.bold Tcaron.bold tcaron.bold Umacron.bold umacron.bold Uring.bold uring.bold Uhungarumlaut.bold uhungarumlaut.bold Uogonek.bold uogonek.bold Zacute.bold zacute.bold Zdotaccent.bold zdotaccent.bold uni01C4.bold uni01C5.bold uni01C6.bold uni01C7.bold uni01C8.bold uni01C9.bold uni01CA.bold uni01CB.bold uni01CC.bold uni01F1.bold uni01F2.bold uni01F3.bold Scommaaccent.bold scommaaccent.bold Tcommaaccent.bold tcommaaccent.bold];
+
+    #RU = russian, cyrillic
+    @ru = [uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F];
+    @RU = [uni0410.bold uni0411.bold uni0412.bold uni0413.bold uni0414.bold uni0415.bold uni0416.bold uni0417.bold uni0418.bold uni0419.bold uni041A.bold uni041B.bold uni041C.bold uni041D.bold uni041E.bold uni041F.bold uni0420.bold uni0421.bold uni0422.bold uni0423.bold uni0424.bold uni0425.bold uni0426.bold uni0427.bold uni0428.bold uni0429.bold uni042A.bold uni042B.bold uni042C.bold uni042D.bold uni042E.bold uni042F.bold uni0430.bold uni0431.bold uni0432.bold uni0433.bold uni0434.bold uni0435.bold uni0436.bold uni0437.bold uni0438.bold uni0439.bold uni043A.bold uni043B.bold uni043C.bold uni043D.bold uni043E.bold uni043F.bold uni0440.bold uni0441.bold uni0442.bold uni0443.bold uni0444.bold uni0445.bold uni0446.bold uni0447.bold uni0448.bold uni0449.bold uni044A.bold uni044B.bold uni044C.bold uni044D.bold uni044E.bold uni044F.bold];
+
+    @sp = [@de @eu @ru];
+    @SP = [@DE @EU @RU];
+
+    @az = [a-z A-Z @sp];
+    @AZ = [a.bold-z.bold A.bold-Z.bold @SP];
+
+    @all = [@az @AZ @sp @SP];
+
+
+    #17
+    ignore sub @all @all @all @all @all @all @all @az' @all @all @all @all @all @all @all @all @all @all;
+    sub @all @all @all @all @all @all @az' @all @all @all @all @all @all @all @all @all @all by @AZ;
+
+    #14,15,16
+    ignore sub @all @all @all @all @all @all @az' @all @all @all @all @all @all @all @all;
+    sub @all @all @all @all @all @az' @all @all @all @all @all @all @all @all by @AZ;
+
+    #12,13
+    ignore sub @all @all @all @all @all @az' @all @all @all @all @all @all;
+    sub @all @all @all @all @az' @all @all @all @all @all @all @all by @AZ;
+
+    #9,10,11
+    #ignore sub @all @all @all @all @az' @all @all @all @all @all @all;
+    ignore sub @all @all @all @all @az' @all @all @all @all @all;
+    sub @all @all @all @az' @all @all @all @all @all by @AZ;
+
+    #7,8
+    ignore sub @all @all @all @az' @all @all @all @all;
+    sub @all @all @az' @all @all @all @all by @AZ;
+
+    #4,5,6
+    #ignore sub @all @all @az' @all @all @all;
+    ignore sub @all @all @az' @all @all;
+    sub @all @az' @all @all by @AZ;
+
+    #1,2,3
+    ignore sub @all @az';
+    sub @az' by @AZ;
+} calt;
