@@ -84,6 +84,15 @@ Or use it as the default font in your browser:
 -   compatible with existing programs
 -   privacy respecting
 
+
+## Support:
+
+The fonts stored in this repository are provided free of charge.
+If you like the project, we would appreciate your support.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/born2root)
+
+
 ## Alternatives:
 
 -   https://github.com/ansh/jiffyreader.com
