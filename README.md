@@ -75,7 +75,7 @@ Or use it as the default font in your browser:
 
 ![Example.com with new sans-serif font](browser.jpg)
 
-## Adavantages:
+## Advantages:
 
 -   free
 -   offline
