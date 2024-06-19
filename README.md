@@ -50,6 +50,7 @@ feature calt {
 ```
 
 Apply this feature to any font you like. For example, using the [`addfeatures.py` script](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py).
+If you prefer an WYSIWYG-Editor I can really recommend "[FontLab](https://www.fontlab.com/)", "[FontCreator](https://www.high-logic.com/font-editor/fontcreator)" or "[Font-Forge](https://fontforge.org/)". 
 
 To use the font in other languages world wide it is necessary to enrich it with the appropriate characters and their substitution.
 With about 120 special characters nearly all European languages are covered.
