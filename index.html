@@ -1,28 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Fast Font Demo</title>
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points."
+        />
+        <meta name="keywords" content="font, reading, speedreading, accessibility, free" />
+
+        <title>Fast Font</title>
         <style>
             @font-face {
                 font-family: "FastFont";
                 src: url("Fast_Sans.ttf") format("opentype");
+                font-display: swap;
             }
 
-            h1,
-            div {
+            html {
+                color: rgb(17, 24, 39);
+                background-color: #f4f7ff;
+                line-height: 1.75rem;
+            }
+
+            .demo {
                 font-family: "FastFont";
+                color: rgb(64, 73, 84);
+                border: dashed 1px grey;
+                padding: 8px;
+            }
+            p {
+                color: rgb(64, 73, 84);
+            }
+            h2:first-of-type {
+                margin-top: 8px;
+            }
+            h2 {
+                margin-top: 64px;
+            }
+            section {
+                border-radius: 1.5rem;
+                padding: 46px;
+                box-shadow: rgb(255, 255, 255) 0 0 0 0, rgb(229, 231, 235) 0 0 0 1px,
+                    rgba(0, 0, 0, 0) 0 0 0 0;
+            }
+            main {
+                max-width: 1000px;
+                margin: auto;
+                padding: 16px;
+            }
+            a {
+                color: #4f46e5;
+            }
+            .badge {
+                text-decoration: none;
+            }
+            header {
+                display: flex;
+                justify-content: center;
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
-        <h1 contenteditable>Fast Font Demo</h1>
-        <div contenteditable>
-            The quick brown fox jumps over the lazy dog<br />
-            This is an interactive demo :D
-            <br />
-            <br />
-            Edit me
-        </div>
+        <main>
+            <header>
+                <a href="https://github.com/Born2Root/Fast-Font">Source Code</a>
+            </header>
+
+            <h1>Fast Font</h1>
+
+            <section>
+                <a href="https://github.com/Born2Root/Fast-Font" class="badge">
+                    <img
+                        loading="lazy"
+                        src="https://img.shields.io/badge/Open-%20Source-green"
+                        alt="opensource github"
+                    />
+                </a>
+                <a href="https://www.buymeacoffee.com/born2root" class="badge">
+                    <img
+                        loading="lazy"
+                        height="20"
+                        src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"
+                        alt="Buy Me A Coffee"
+                    />
+                </a>
+
+                <h2>Demo</h2>
+                <div class="demo" contenteditable>
+                    A font to help you read faster.<br />
+                    <br />
+                    The quick brown fox jumps over the lazy dog<br />
+                    This is an interactive demo :D
+                    <br />
+                    <br />
+                    EDIT ME ✍️
+                </div>
+
+                <h2>What is this font?</h2>
+                <p>
+                    This font provides faster reading through facilitating the reading process by
+                    guiding the eyes through text with artificial fixation points. As a result, the
+                    reader is only focusing on the highlighted initial letters and lets the brain
+                    center complete the word. This allows you to read in supersonic speed.
+                </p>
+                <p>
+                    Use it to write texts, read e-books, code or view web pages. Any application
+                    that supports OpenType features can be used, even your corporate website.<br />
+                    For some people the artificial fixation points can help them concentrate even
+                    when having dyslexia or ADD.
+                </p>
+
+                <h2>How to use?</h2>
+                <p>
+                    In the
+                    <a href="https://github.com/Born2Root/Fast-Font">README of the repository</a>
+                    you can find examples on how to use the font on several applications supporting
+                    OpenType font features.<br />
+                    Also you can read on how the font was made and how you can create your own font
+                    in the same style.
+                </p>
+
+                <h2>Contribute?</h2>
+                <p>
+                    YES please ❤️!<br />
+                    Feel free to ask questions,
+                    <a href="https://github.com/Born2Root/Fast-Font/issues">answer issues</a> and
+                    <a href="https://github.com/Born2Root/Fast-Font/pulls">create pull</a> requests.
+                </p>
+            </section>
+        </main>
     </body>
 </html>
