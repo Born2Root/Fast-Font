@@ -76,10 +76,10 @@ The completely to the latin base characters reduced code looks like this.
 ```
 feature calt {
 
- 		@az = [a-z A-Z];
-		@AZ = [a.bold-z.bold A.bold-Z.bold];
+@az = [a-z A-Z];
+@AZ = [a.bold-z.bold A.bold-Z.bold];
 
-    @all = [@az @AZ];
+@all = [@az @AZ];
 	
 
 #17
@@ -119,14 +119,14 @@ Use that as a starting point to get the whole font running. Add the special char
 For example it would be necessary to add some lines for the "ö ü ä ß"
 
 ```
-		@de = [adieresis odieresis udieresis Adieresis Odieresis Udieresis germandbls];
-		@DE = [adieresis.bold odieresis.bold udieresis.bold Adieresis.bold Odieresis.bold Udieresis.bold germandbls.bold];
+@de = [adieresis odieresis udieresis Adieresis Odieresis Udieresis germandbls];
+@DE = [adieresis.bold odieresis.bold udieresis.bold Adieresis.bold Odieresis.bold Udieresis.bold germandbls.bold];
 	
-    @sp = [@de];
-		@SP = [@DE];
+@sp = [@de];
+@SP = [@DE];
 
- 		@az = [a-z A-Z @sp];
-		@AZ = [a.bold-z.bold A.bold-Z.bold @SP];
+@az = [a-z A-Z @sp];
+@AZ = [a.bold-z.bold A.bold-Z.bold @SP];
 ```
 For other special characters just add them from the "EU languages" section or the cyrillic section "RU = russian, cyrillic" of the original program code.
 Please again, be aware that you need a font covering the special characters that you need, or design them yourself.
