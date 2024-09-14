@@ -6,11 +6,11 @@ This font provides faster reading through facilitating the reading process by gu
 
 ![Demo GIF](Fast-Font.gif)
 
-## Demo
+## Demo:
 
 [DEMO](https://Born2Root.github.io/Fast-Font)
 
-## How it works
+## How it works (the technical side):
 
 The basic idea is to substitut the first few letters with their bold variant.
 
@@ -49,21 +49,28 @@ feature calt {
 } calt;
 ```
 
-Apply this feature to any font you like. For example, using the [`addfeatures.py` script](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py).
-If you prefer an WYSIWYG-Editor I can really recommend "[FontLab](https://www.fontlab.com/)", "[FontCreator](https://www.high-logic.com/font-editor/fontcreator)" or "[Font-Forge](https://fontforge.org/)". 
-
-To use the font in other languages world wide it is necessary to enrich it with the appropriate characters and their substitution.
-With about 120 special characters nearly all European languages are covered.
-See [opentype_feature.fea](opentype_feature.fea) for an elaborate example.
-
 ### Variation:
+You can change the behaviour of the font by changing the code and changing the glyphs.
+Possible is for example:
 
 -   Choose your fixation. How much of a word should be bold.
 -   Change the opacity of the bold letters.
 -   Apply to every font you want.
 -   Or use italic instead of bold.
 
-## How to use:
+## How to apply the Speed-Reading feature to other Fonts:
+
+Apply the shown feature to any font you like. For example, using the [`addfeatures.py` script](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py).
+If you prefer an WYSIWYG-Editor I can really recommend "[FontLab](https://www.fontlab.com/)", "[FontCreator](https://www.high-logic.com/font-editor/fontcreator)" or "[Font-Forge](https://fontforge.org/)". 
+
+To give you an introduction on how to do this, you can find an elaborate Tutorial for "FontLab 7" here: [Tutorial](https://github.com/Born2Root/Fast-Font/blob/main/README_Tutorial.md)
+
+To use the font in other languages world wide it is necessary to enrich it with the appropriate characters and their substitution.
+With about 120 special characters nearly all European languages are covered.
+See [opentype_feature.fea](opentype_feature.fea) for an elaborate example.
+
+
+## How to use the Font:
 
 In Word, enable "Use Contextual Alternates" in the OpenType Features.
 
@@ -75,6 +82,11 @@ Just select your font and set `"editor.fontLigatures": true,`.
 Or use it as the default font in your browser:
 
 ![Example.com with new sans-serif font](browser.jpg)
+
+If you have a Kobo Reader with KoReader-Extension you can also use it there.
+Please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/1) and the  [Corresponding Reddit Post](https://www.reddit.com/r/kobo/comments/186y8m7/speedreading_bionic_font_fast_font_working_on/?rdt=54785)
+
+![IMG_20231129_112326774 (1)](https://github.com/Born2Root/Fast-Font/assets/149900376/9d81c868-5fae-4a88-8820-9d7c64959391)
 
 ## Advantages:
 
