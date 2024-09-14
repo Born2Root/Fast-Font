@@ -134,7 +134,7 @@ Please again, be aware that you need a font covering the special characters that
 
 If the test of the font works, and if you don't get any more errors it's time to export our font.
 
-## Export the font
+## Export the Font
 If you want the speed reading variation of the font alongside the original font, you should rename it.
 To do this click on the little information "I" and change the name in the following window.
 I would recommend to just add a suffix to the font, like Fast or Speed.
