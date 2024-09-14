@@ -1,16 +1,16 @@
 # Intro
 I was recently active with FontLab again, so I decided to make a little tutorial to make it easier for other users to get active.
-Aim of the small tutorial is to show, how you cann apply the fast-reading features to any other font.
+Aim of the small tutorial is to show, how you can apply the fast-reading features to any other font.
 I am using the software "FontLab version 7", but you can also use any other capable software.
 
 # Selecting & preparing the Font
 
-First of all, you need a font that you want to enricht with the speed-reading feature.
-Since the spee-reading feature uses bold-characters you need two versions of the font:
+First of all, you need a font that you want to enritch with the speed-reading feature.
+Since the speed-reading feature uses bold-characters you need two versions of the font:
 - a regular or light version
 - the bold version
 
-Depending on the font you selected these two version are already combined in one single font-file (.ttf or .otf).
+Depending on the font you selected these two versions are already combined in one single font-file (.ttf or .otf).
 Or also very common separated in two separate font-files, one containing the regular and one containing the bold version.
 Because the Speed-Reading font is at the end only one single font-file, first of all we have to combine the two versions.
 
@@ -30,9 +30,9 @@ Afterwards every glyph of the font should have a name with the extension .bold
 # Combining the Fonts
 Now we have to combine the bold version and the regular/ light version in one file.
 To do this, also open the regular/ light version in FontLab.
-Select all glyphs from the bold version that we just renamed (easiest by pressing Strg + A) and copy them (Strg + C) or right click, Copy.
+Select all glyphs from the bold version that we just renamed (easiest by pressing Ctrl + A) and copy them (Ctrl + C) or right click, Copy.
 
-Now switch the Tab to the regular version and paste the copied glyphs to the font (Strg + V, or Paste).
+Now switch the Tab to the regular version and paste the copied glyphs to the font (Ctrl + V, or Paste).
 A pop-up window will appear asking you how to insert the glyphs.
 Select "Append glyphs, keep existing glyphs unchanged"
 
@@ -64,7 +64,7 @@ Running the program code, by clicking the little "Play" icon, will therefore pro
 Errors can look like this, where FontLab tells you which glyphs are missing.
 ![error](https://github.com/user-attachments/assets/e68ab725-1ea7-4289-a83a-d28f2d232fe1)
 
-That means, that there are more letters/ glyphs covered in the pgoram code of the "Fast-Font", than that there are existent in your font.
+That means, that there are more letters/ glyphs covered in the program code of the "Fast-Font", than that there are existent in your font.
 As an explanation, the first line with "Missing glyph: uni0334 -> uni1D6C" tells you that the Unicode-Character uni1D6C is missing in the Bookerly.ttf. Looking the character up on the web tells you that it is a character from the greek alphabet, that is not covered.
 
 There are two ways to fix this:
