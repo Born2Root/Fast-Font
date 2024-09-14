@@ -1,4 +1,7 @@
+# Intro
 I was recently active with FontLab again, so I made some screenshots to make it easier for other users to get active.
+
+# 
 
 First of all, open a font-file with FonLab.
 
@@ -16,3 +19,12 @@ Afterwards just add the whole program code that you can find in the repo.
 
 Use the code as it is or alternate it as you wish.
 Afterwards test the font and export it.
+
+## Export the font
+If you want the speed reading variation of the font alongside the original font, you should rename it.
+To do this click on the little information "I" and change the name in the following window.
+I would recommend to just add a suffix to the font, like Fast or Speed.
+
+![Font-Umbenennen](https://github.com/user-attachments/assets/42258ce1-d735-4cc7-bd61-c1dde7f24f87)
+
+
