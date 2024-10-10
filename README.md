@@ -10,64 +10,20 @@ This font provides faster reading through facilitating the reading process by gu
 
 [DEMO](https://Born2Root.github.io/Fast-Font)
 
-## How it works (the technical side):
+---
 
-The basic idea is to substitut the first few letters with their bold variant.
+## Variations:
 
-You can define how much should be fixated. A rule of thumb would be something like:
+At the moment we have three different variations of the Fast-Font available.
 
-> If there are <= 3 letters, one letter is bold.
->
-> If there are == 4 letters, two letters are bold.
->
-> If there are > 4 letters, 40% of all letters are bold.
+**1. Fast Font with Serifs:**
+   ![image](https://github.com/user-attachments/assets/d1275aec-4781-42f4-9fbf-9a968d01c1ea)
 
-The rules can be applied using OpenType Font features.
-Here is a basic example usage of "Contextual Alternates" (calt) substitution:
+**2. Fast Font Sans (without Serifs):**
+   ![image](https://github.com/user-attachments/assets/dea53742-c051-4165-bac9-dabf47b2e5ac)
 
-Having the word "font". OpenType goes through the rules from top to bottom for each letter.
-
-1. The code analyzes the position of the current letter `@az'` inside a word.
-1. Starting with "f" only the last `sub` matches as it only ever matches the first letter.
-1. On letter "o" the first `sub` matches as there is one previous and two following letters.
-1. For the other letters, there are no matching rules.
-
-```fea
-feature calt {
-    @az = [a-z A-Z];
-    @AZ = [a.bold-z.bold A.bold-Z.bold];
-
-    @all = [@az @AZ];
-
-    # 4, 5, 6
-    ignore sub @all @all @az' @all @all;
-    sub @all @az' @all @all by @AZ;
-
-    # 1, 2, 3
-    ignore sub @all @az';
-    sub @az' by @AZ;
-} calt;
-```
-
-### Variation:
-You can change the behaviour of the font by changing the code and changing the glyphs.
-Possible is for example:
-
--   Choose your fixation. How much of a word should be bold.
--   Change the opacity of the bold letters.
--   Apply to every font you want.
--   Or use italic instead of bold.
-
-## How to apply the Speed-Reading feature to other Fonts:
-
-Apply the shown feature to any font you like. For example, using the [`addfeatures.py` script](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py).
-If you prefer an WYSIWYG-Editor I can really recommend "[FontLab](https://www.fontlab.com/)", "[FontCreator](https://www.high-logic.com/font-editor/fontcreator)" or "[Font-Forge](https://fontforge.org/)". 
-
-To give you an introduction on how to do this, you can find an elaborate Tutorial for "FontLab 7" here: [Tutorial](https://github.com/Born2Root/Fast-Font/blob/main/README_Tutorial.md)
-
-To use the font in other languages world wide it is necessary to enrich it with the appropriate characters and their substitution.
-With about 120 special characters nearly all European languages are covered.
-See [opentype_feature.fea](opentype_feature.fea) for an elaborate example.
+**3. Fast Font Sans (without Serifs) and Dots as spaces:**
+   ![image](https://github.com/user-attachments/assets/5e77c4ff-2b55-4c2d-acf5-1f9e0b3fc08e)
 
 
 ## How to use the Font:
@@ -97,6 +53,20 @@ Please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues
 -   compatible with existing programs
 -   privacy respecting
 
+## How it works (the technical side):
+Are you interested in the technical aspects of the Fast-Font?
+You can find a detailed description about the background technology here: [Tech-Guide](https://github.com/ThereOHM/Fast-Font/blob/main/README_Tech.md)
+
+## How to apply the Speed-Reading feature to other Fonts:
+
+Apply the shown feature to any font you like. For example, using the [`addfeatures.py` script](https://github.com/simoncozens/test-fonts/blob/master/addfeatures.py).
+If you prefer an WYSIWYG-Editor I can really recommend "[FontLab](https://www.fontlab.com/)", "[FontCreator](https://www.high-logic.com/font-editor/fontcreator)" or "[Font-Forge](https://fontforge.org/)". 
+
+To give you an introduction on how to do this, you can find an elaborate Tutorial for "FontLab 7" here: [Tutorial](https://github.com/Born2Root/Fast-Font/blob/main/README_Tutorial.md)
+
+To use the font in other languages world wide it is necessary to enrich it with the appropriate characters and their substitution.
+With about 120 special characters nearly all European languages are covered.
+See [opentype_feature.fea](opentype_feature.fea) for an elaborate example.
 
 ## Support:
 
@@ -105,6 +75,7 @@ If you like the project, we would appreciate your support.
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/born2root)
 
+---
 
 ## Alternatives:
 
