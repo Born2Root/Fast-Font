@@ -17,13 +17,16 @@ This font provides faster reading through facilitating the reading process by gu
 At the moment we have three different variations of the Fast-Font available.
 
 **1. Fast Font with Serifs:**
-   ![image](https://github.com/user-attachments/assets/d1275aec-4781-42f4-9fbf-9a968d01c1ea)
+   ![image](https://github.com/user-attachments/assets/4dae6fbf-34da-4492-be71-b04ac12a2a9f)
 
 **2. Fast Font Sans (without Serifs):**
    ![image](https://github.com/user-attachments/assets/dea53742-c051-4165-bac9-dabf47b2e5ac)
 
 **3. Fast Font Sans (without Serifs) and Dots as spaces:**
-   ![image](https://github.com/user-attachments/assets/5e77c4ff-2b55-4c2d-acf5-1f9e0b3fc08e)
+This Font is inspired by the Space Reading® technique Kam Knight discusses in his book "Speed Reading: Learn to Read a 200+ Page Book in 1 Hour".
+The basic idea is to not concentrate on the single words but looking at the white spaces between every 3-4 words. Paying attention on the spaces prevents the eyes from narrowing the focus, thus we are able to pick up more peripheral information. At the beginning it can be quite challenging focusing on the white spaces. 
+This Font helps you by inserting a litte dot, that is much easier to focus.
+   ![image](https://github.com/user-attachments/assets/c2614801-77b1-433f-b781-6b8655dbb862)
 
 
 ## How to use the Font:
