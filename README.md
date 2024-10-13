@@ -24,7 +24,7 @@ At the moment we have three different variations of the Fast-Font available.
 
 **3. Fast Font Sans (without Serifs) and Dots as spaces:**
 
-This Font is inspired by the Space Reading® technique Kam Knight discusses in his book "Speed Reading: Learn to Read a 200+ Page Book in 1 Hour".
+This Font is inspired by the Space Reading® technique Kam Knight discusses in his book [*"Speed Reading: Learn to Read a 200+ Page Book in 1 Hour"*](https://amzn.to/3U6RYYb).
 The basic idea is to not concentrate on the single words but looking at the white spaces between every 3-4 words. Paying attention on the spaces prevents the eyes from narrowing the focus, thus we are able to pick up more peripheral information. At the beginning it can be quite challenging focusing on the white spaces. 
 This Font helps you by inserting a litte dot, that is much easier to focus.
    ![image](https://github.com/user-attachments/assets/c2614801-77b1-433f-b781-6b8655dbb862)
