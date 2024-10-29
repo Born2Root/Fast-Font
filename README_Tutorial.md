@@ -17,9 +17,7 @@ Because the Speed-Reading font is at the end only one single font-file, first of
 To achieve this, first open the bold version in Font-Lab.
 Because we want to address the bold version with our code later on, we need to give every glyph a specific name.
 Select all glyps in the character overview by clicking one and afterwards pressing "Strg + A".
-The go to "Font -> Rename Glyphs -> Suffix"
-
-![bold rename](https://github.com/user-attachments/assets/dcf3f9df-7b13-432d-a4a5-6b797e590cff)
+Then go to "Font -> Rename Glyphs -> Suffix"
 
 As a suffix choose ".bold" and press ok.
 
