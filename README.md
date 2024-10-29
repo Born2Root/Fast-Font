@@ -8,7 +8,8 @@ This font provides faster reading through facilitating the reading process by gu
 
 ## Demo:
 
-[DEMO](https://Born2Root.github.io/Fast-Font)
+[DEMO wich supports live text input](https://Born2Root.github.io/Fast-Font)
+[DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
 ---
 
