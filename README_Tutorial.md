@@ -132,6 +132,14 @@ Please again, be aware that you need a font covering the special characters that
 
 If the test of the font works, and if you don't get any more errors it's time to export our font.
 
+## Preview the Font
+
+If not already visible activate the "Preview Panel" in the Window-Settings.
+Afterwards you can start typing a text in the preview window and it automatically applies your font and open type features.
+
+![Fast Font Tutorial - activate Preview](https://github.com/user-attachments/assets/323db692-293a-4d08-90f3-0c2ee6c06d71)
+
+
 ## Export the Font
 If you want the speed reading variation of the font alongside the original font, you should rename it.
 To do this click on the little information "I" and change the name in the following window.
