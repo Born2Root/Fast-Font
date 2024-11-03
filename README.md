@@ -13,11 +13,11 @@ This font provides faster reading through facilitating the reading process by gu
 [DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
 
-Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts)
+Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts) 👍
 
 ---
 
-## Variations:
+## ✨ Variations:
 
 At the moment we have three different variations of the Fast-Font available.
 
@@ -34,8 +34,9 @@ The basic idea is to not concentrate on the single words but looking at the whit
 This Font helps you by inserting a litte dot, that is much easier to focus.
    ![image](https://github.com/user-attachments/assets/c2614801-77b1-433f-b781-6b8655dbb862)
 
+---
 
-## How to use the Font:
+## ⁉️ How to use the Font:
 
 ### Use in Software
 In Word, enable "Use Contextual Alternates" in the OpenType Features.
@@ -90,7 +91,9 @@ ATTENTION: Please be aware that only the new Kindles are that easy to handle. If
 -   compatible with existing programs
 -   privacy respecting
 
-## How it works (the technical side):
+---
+
+## ⚙️ How it works (the technical side):
 Are you interested in the technical aspects of the Fast-Font?
 You can find a detailed description about the background technology here: [Tech-Guide](https://github.com/ThereOHM/Fast-Font/blob/main/README_Tech.md)
 
@@ -105,7 +108,9 @@ To use the font in other languages world wide it is necessary to enrich it with 
 With about 120 special characters nearly all European languages are covered.
 See [opentype_feature.fea](opentype_feature.fea) for an elaborate example.
 
-## Support:
+---
+
+## ❤️ Support:
 
 The fonts stored in this repository are provided free of charge.
 If you like the project, we would appreciate your support.
@@ -114,14 +119,16 @@ If you like the project, we would appreciate your support.
 
 ---
 
-## Alternatives:
+## 📖 Additional Information
+
+### Alternatives:
 
 -   https://github.com/ansh/jiffyreader.com
 -   https://github.com/ahrm/chrome-fastread
 -   https://github.com/boldreader/chrome-extension / https://github.com/akay/firefox-fastread
 -   https://boldreader.github.io/boldreader/
 
-## Useful Links:
+### Useful Links:
 
 -   https://blog.readwise.io/bionic-reading-results/
 -   https://forum.high-logic.com/viewtopic.php?t=6723
