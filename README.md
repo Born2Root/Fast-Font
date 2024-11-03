@@ -12,6 +12,9 @@ This font provides faster reading through facilitating the reading process by gu
 
 [DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
+
+Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts)
+
 ---
 
 ## Variations:
