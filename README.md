@@ -37,6 +37,7 @@ This Font helps you by inserting a litte dot, that is much easier to focus.
 
 ## How to use the Font:
 
+### Use in Software
 In Word, enable "Use Contextual Alternates" in the OpenType Features.
 
 ![M$ Word](word.jpg)
@@ -48,10 +49,37 @@ Or use it as the default font in your browser:
 
 ![Example.com with new sans-serif font](browser.jpg)
 
+### Use on Kobo eReader
+
 If you have a Kobo Reader with KoReader-Extension you can also use it there.
 Please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/1) and the  [Corresponding Reddit Post](https://www.reddit.com/r/kobo/comments/186y8m7/speedreading_bionic_font_fast_font_working_on/?rdt=54785)
 
 ![IMG_20231129_112326774 (1)](https://github.com/Born2Root/Fast-Font/assets/149900376/9d81c868-5fae-4a88-8820-9d7c64959391)
+
+### Use on Kindle
+
+If you have a Kindle there are 4 easy steps to transfer the Fast-Fonts.
+
+**Step 1:** Connect your Kindle to your computer
+Use a USB cable to connect your Kindle to your computer. Your Kindle should appear as a drive on your computer.
+
+**Step 2:** Transfer the Font Files
+Open the "Kindle" drive on your computer.
+Donwload the fonts from this repository.
+Locate the "fonts" folder. If it doesn’t exist, create a new folder and name it "fonts".
+Copy the downloaded font files into this folder.
+
+**Step 3:** Safely Eject Your Kindle
+After transferring the font files, safely eject your Kindle from your computer to ensure the files are properly saved.
+
+**Step 4:** Select the Font on Your Kindle
+Open a book on your Kindle.
+Tap the top of the screen to access the toolbar.
+Tap the "Aa" icon to open the display settings.
+Go to the "Font" tab and select the Bionic Reading font you installed.
+
+ATTENTION: Please be aware that only the new Kindles are that easy to handle. If you have an older Kindle (below 5th generation) please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/8) 
+
 
 ## Advantages:
 
