@@ -79,8 +79,10 @@ Tap the top of the screen to access the toolbar.
 Tap the "Aa" icon to open the display settings.
 Go to the "Font" tab and select the Bionic Reading font you installed.
 
-ATTENTION: Please be aware that only the new Kindles are that easy to handle. If you have an older Kindle (below 5th generation) please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/8) 
+It seems Kindle handles fonts different depending on the source of the books (bought from the store vs. loaded locally from Calibre).
+If you are having trouble to get the Font working on Kindle, please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/8) 
 
+ATTENTION: Please be aware that only the new Kindles are that easy to handle. If you have an older Kindle (below 5th generation) please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/8) 
 
 ## Advantages:
 
