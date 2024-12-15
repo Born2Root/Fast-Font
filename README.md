@@ -39,7 +39,7 @@ This Font helps you by inserting a litte dot, that is much easier to focus.
 ## ⁉️ How to use the Font:
 
 ### Use in Software
-In Word, enable "Use Contextual Alternates" in the OpenType Features.
+In MS-Word, select the text and enable "Use Contextual Alternates" in the OpenType Features.
 
 ![M$ Word](word.jpg)
 
