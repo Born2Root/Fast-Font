@@ -34,8 +34,16 @@ feature calt {
     @ru = [uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F];
     @RU = [uni0410.bold uni0411.bold uni0412.bold uni0413.bold uni0414.bold uni0415.bold uni0416.bold uni0417.bold uni0418.bold uni0419.bold uni041A.bold uni041B.bold uni041C.bold uni041D.bold uni041E.bold uni041F.bold uni0420.bold uni0421.bold uni0422.bold uni0423.bold uni0424.bold uni0425.bold uni0426.bold uni0427.bold uni0428.bold uni0429.bold uni042A.bold uni042B.bold uni042C.bold uni042D.bold uni042E.bold uni042F.bold uni0430.bold uni0431.bold uni0432.bold uni0433.bold uni0434.bold uni0435.bold uni0436.bold uni0437.bold uni0438.bold uni0439.bold uni043A.bold uni043B.bold uni043C.bold uni043D.bold uni043E.bold uni043F.bold uni0440.bold uni0441.bold uni0442.bold uni0443.bold uni0444.bold uni0445.bold uni0446.bold uni0447.bold uni0448.bold uni0449.bold uni044A.bold uni044B.bold uni044C.bold uni044D.bold uni044E.bold uni044F.bold];
 
-    @sp = [@de @eu @ru];
-    @SP = [@DE @EU @RU];
+    #UK = ukranian
+    @uk = [uni0454 uni0404 uni0406 uni0456 uni0407 uni0457 uni0490 uni0491 uni02bc quoteright quotesingle];
+    @UK = [uni0454.bold uni0404.bold uni0406.bold uni0456.bold uni0407.bold uni0457.bold uni0490.bold uni0491.bold uni02bc.bold quoteright.bold quotesingle.bold];
+	
+    #BY = belarussin
+    @by = [uni040E uni045E uni0456 uni0406 quoteright quotesingle];
+    @BY = [uni040E.bold uni045E.bold uni0456.bold uni0406.bold quoteright.bold quotesingle.bold];
+	
+    @sp = [@de @eu @ru @uk @by];
+    @SP = [@DE @EU @RU @UK @BY];
 
     @az = [a-z A-Z @sp];
     @AZ = [a.bold-z.bold A.bold-Z.bold @SP];
