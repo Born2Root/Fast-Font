@@ -19,7 +19,9 @@ Don't miss to check out our [other font projects!](https://github.com/Born2Root/
 
 ## ✨ Variations:
 
-At the moment we have three different variations of the Fast-Font available.
+At the moment we have four different variations of the Fast-Font available.
+The first three are best suited for reading and offer support for the most languages.
+The Monospaced version is the best fit if you want to use it in an coding environment.
 
 **1. Fast Font with Serifs:**
    ![image](https://github.com/user-attachments/assets/4dae6fbf-34da-4492-be71-b04ac12a2a9f)
@@ -33,6 +35,10 @@ This Font is inspired by the Space Reading® technique Kam Knight discusses in h
 The basic idea is to not concentrate on the single words but looking at the white spaces between every 3-4 words. Paying attention on the spaces prevents the eyes from narrowing the focus, thus we are able to pick up more peripheral information. At the beginning it can be quite challenging focusing on the white spaces. 
 This Font helps you by inserting a litte dot, that is much easier to focus.
    ![image](https://github.com/user-attachments/assets/c2614801-77b1-433f-b781-6b8655dbb862)
+
+**4. Fast Font Monospaced:**
+Monospaced version intended for use in coding environment.
+![image](https://github.com/user-attachments/assets/6292b0b1-d7b4-4a37-8d8b-611dee0c9820)
 
 ---
 
