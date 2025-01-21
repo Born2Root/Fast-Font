@@ -37,6 +37,7 @@ This Font helps you by inserting a litte dot, that is much easier to focus.
    ![image](https://github.com/user-attachments/assets/c2614801-77b1-433f-b781-6b8655dbb862)
 
 **4. Fast Font Monospaced:**
+
 Monospaced version intended for use in coding environment.
 ![image](https://github.com/user-attachments/assets/6292b0b1-d7b4-4a37-8d8b-611dee0c9820)
 
