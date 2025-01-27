@@ -130,7 +130,20 @@ If you like the project, we would appreciate your support.
 
 ## 📖 Additional Information
 
-### Alternatives:
+### Book Recommendations:
+
+If you want to dive deeper into speed reading I can really recommend the following books.
+
+**English:**
+-   [The Speed Reading Book - Tony Buzan](https://amzn.to/3Edhxl9)
+-   [Speed Reading: Learn to Read a 200+ Page Book in 1 Hour - Kam Knight](https://amzn.to/3U6RYYb)
+-   [The Complete Idiot's Guide to Speed Reading](https://amzn.to/3ClA12m)
+
+**German:**
+-   [Speed Reading fürs Studium - Günther Koch](https://amzn.to/4hcuf2i)
+-   [Bewährte Speed Reading Techniken](https://amzn.to/3WzGZHI)
+
+### Alternative Solutions for Fast-Reading Font:
 
 -   https://github.com/ansh/jiffyreader.com
 -   https://github.com/ahrm/chrome-fastread
