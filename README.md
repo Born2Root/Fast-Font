@@ -95,7 +95,7 @@ ATTENTION: Please be aware that only the new Kindles are that easy to handle. If
 
 -   free and totally open-source
 -   from personal use to business. Web, Desktop, App/ Game, eBook, use it wherever you want
--   offline
+-   offline usable. No internet connection necessary
 -   fast, no (additional) client-side code
 -   compatible with existing programs
 -   privacy respecting
