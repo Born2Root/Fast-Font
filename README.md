@@ -93,10 +93,10 @@ ATTENTION: Please be aware that only the new Kindles are that easy to handle. If
 
 ## Advantages:
 
--   free
+-   free and totally open-source
+-   from personal use to business. Web, Desktop, App/ Game, eBook, use it wherever you want
 -   offline
--   fast
--   no (additional) client-side code
+-   fast, no (additional) client-side code
 -   compatible with existing programs
 -   privacy respecting
 
