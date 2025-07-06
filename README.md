@@ -4,6 +4,8 @@
 
 This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word. This allows you to read in supersonic speed.
 
+The project is completely open-source, so please feel free to use and distribute it however you want.
+
 ![Demo GIF](Fast-Font.gif)
 
 ## Demo:
