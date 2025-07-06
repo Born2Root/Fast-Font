@@ -38,7 +38,7 @@ This Font helps you by inserting a litte dot, that is much easier to focus.
 
 **4. Fast Font Monospaced:**
 
-Monospaced version intended for use in coding environment.
+Monospaced version intended for use in coding environment. It also supports coding ligatures. Please refer to the [FiraCode Ligature Documentation](https://github.com/tonsky/FiraCode/blob/master/extras/ligatures.png) as a reference.
 ![image](https://github.com/user-attachments/assets/6292b0b1-d7b4-4a37-8d8b-611dee0c9820)
 
 ---
