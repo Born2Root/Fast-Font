@@ -71,22 +71,22 @@ Please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues
 If you have a Kindle there are 4 easy steps to transfer the Fast-Fonts.
 
 **Step 1:** Connect your Kindle to your computer<br>
-Use a USB cable to connect your Kindle to your computer. Your Kindle should appear as a drive on your computer.
+- Use a USB cable to connect your Kindle to your computer. Your Kindle should appear as a drive on your computer.
 
 **Step 2:** Transfer the Font Files<br>
-Open the "Kindle" drive on your computer.<br>
-Download the fonts from this repository.<br>
-Locate the "fonts" folder. If it doesn’t exist, create a new folder and name it "fonts".<br>
-Copy the downloaded font files into this folder.
+- Open the "Kindle" drive on your computer.<br>
+- Download the fonts from this repository.<br>
+- Locate the "fonts" folder. If it doesn’t exist, create a new folder and name it "fonts".<br>
+- Copy the downloaded font files into this folder.
 
 **Step 3:** Safely Eject Your Kindle<br>
-After transferring the font files, safely eject your Kindle from your computer to ensure the files are properly saved.
+- After transferring the font files, safely eject your Kindle from your computer to ensure the files are properly saved.
 
 **Step 4:** Select the Font on Your Kindle<br>
-Open a book on your Kindle.<br>
-Tap the top of the screen to access the toolbar.<br>
-Tap the "Aa" icon to open the display settings.<br>
-Go to the "Font" tab and select the Bionic Reading font you installed.
+- Open a book on your Kindle.<br>
+- Tap the top of the screen to access the toolbar.<br>
+- Tap the "Aa" icon to open the display settings.<br>
+- Go to the "Font" tab and select the Bionic Reading font you installed.
 
 It seems Kindle handles fonts different depending on the source of the books (bought from the store vs. loaded locally from Calibre).
 If you are having trouble to get the Font working on Kindle, please refer to the [Github Issue](https://github.com/Born2Root/Fast-Font/issues/8) 
