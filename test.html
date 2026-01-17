@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fast Font - Preview</title>
+    <style>
+        @font-face { font-family: 'FastSerif'; src: url('Fast_Serif.ttf'); }
+        @font-face { font-family: 'FastSans'; src: url('Fast_Sans.ttf'); }
+        @font-face { font-family: 'FastSansDotted'; src: url('Fast_Sans_Dotted.ttf'); }
+        @font-face { font-family: 'FastMono'; src: url('Fast_Mono.ttf'); }
+        @font-face { font-family: 'KindleSerif'; src: url('fast-fonts-for-kindle/Fast_Serif/Fast_Serif.otf'); }
+        @font-face { font-family: 'KindleSans'; src: url('fast-fonts-for-kindle/Fast_Sans/Fast_Sans.otf'); }
+        @font-face { font-family: 'KindleSansDotted'; src: url('fast-fonts-for-kindle/Fast_Sans_Dotted/Fast_Sans_Dotted.otf'); }
+        @font-face { font-family: 'KindleAtkinson'; src: url('fast-fonts-for-kindle/Fast_Atkinson/Fast_Atkinson_Regular.otf'); }
+        @font-face { font-family: 'KindleAtkinsonDotted'; src: url('fast-fonts-for-kindle/Fast_Atkinson_Dotted/Fast_Atkinson_Dotted_Regular.otf'); }
+        @font-face { font-family: 'KindleOpenDyslexic'; src: url('fast-fonts-for-kindle/Fast_OpenDyslexic/Fast_OpenDyslexic.otf'); }
+        body { font-family: system-ui; padding: 40px; }
+        h1 { font-size: 24px; }
+        h2 { font-size: 18px; color: #666; margin-top: 32px; }
+        table { border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 10px 14px; }
+        th { background: #f5f5f5; font-size: 13px; }
+        td { font-size: 22px; font-feature-settings: "calt" 1, "liga" 1; }
+    </style>
+</head>
+<body>
+    <h1>Fast Font Preview</h1>
+    <p>Bold highlights appear at the start of each word to guide reading.</p>
+
+    <h2>Sample Text</h2>
+    <table>
+        <tr>
+            <th>Font</th>
+            <th>Text</th>
+        </tr>
+        <tr><th>Fast Serif</th><td style="font-family: 'FastSerif', serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Fast Sans</th><td style="font-family: 'FastSans', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Fast Sans Dotted</th><td style="font-family: 'FastSansDotted', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Fast Mono</th><td style="font-family: 'FastMono', monospace">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Kindle Serif</th><td style="font-family: 'KindleSerif', serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Kindle Sans</th><td style="font-family: 'KindleSans', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Kindle Sans Dotted</th><td style="font-family: 'KindleSansDotted', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Kindle Atkinson</th><td style="font-family: 'KindleAtkinson', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Kindle Atkinson Dotted</th><td style="font-family: 'KindleAtkinsonDotted', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+        <tr><th>Kindle OpenDyslexic</th><td style="font-family: 'KindleOpenDyslexic', sans-serif">The quick brown fox jumps over the lazy dog.</td></tr>
+    </table>
+
+    <h2>Ligatures (fi, fl, ff, ffi, ffl)</h2>
+    <table>
+        <tr>
+            <th>Font</th>
+            <th>fi</th>
+            <th>fl</th>
+            <th>ff</th>
+            <th>ffi</th>
+            <th>ffl</th>
+        </tr>
+        <tr><th>Fast Serif</th><td style="font-family: 'FastSerif'">fifty</td><td style="font-family: 'FastSerif'">floor</td><td style="font-family: 'FastSerif'">coffee</td><td style="font-family: 'FastSerif'">office</td><td style="font-family: 'FastSerif'">scaffold</td></tr>
+        <tr><th>Fast Sans</th><td style="font-family: 'FastSans'">fifty</td><td style="font-family: 'FastSans'">floor</td><td style="font-family: 'FastSans'">coffee</td><td style="font-family: 'FastSans'">office</td><td style="font-family: 'FastSans'">scaffold</td></tr>
+        <tr><th>Fast Sans Dotted</th><td style="font-family: 'FastSansDotted'">fifty</td><td style="font-family: 'FastSansDotted'">floor</td><td style="font-family: 'FastSansDotted'">coffee</td><td style="font-family: 'FastSansDotted'">office</td><td style="font-family: 'FastSansDotted'">scaffold</td></tr>
+        <tr><th>Fast Mono</th><td style="font-family: 'FastMono'">fifty</td><td style="font-family: 'FastMono'">floor</td><td style="font-family: 'FastMono'">coffee</td><td style="font-family: 'FastMono'">office</td><td style="font-family: 'FastMono'">scaffold</td></tr>
+        <tr><th>Kindle Serif</th><td style="font-family: 'KindleSerif'">fifty</td><td style="font-family: 'KindleSerif'">floor</td><td style="font-family: 'KindleSerif'">coffee</td><td style="font-family: 'KindleSerif'">office</td><td style="font-family: 'KindleSerif'">scaffold</td></tr>
+        <tr><th>Kindle Sans</th><td style="font-family: 'KindleSans'">fifty</td><td style="font-family: 'KindleSans'">floor</td><td style="font-family: 'KindleSans'">coffee</td><td style="font-family: 'KindleSans'">office</td><td style="font-family: 'KindleSans'">scaffold</td></tr>
+        <tr><th>Kindle Sans Dotted</th><td style="font-family: 'KindleSansDotted'">fifty</td><td style="font-family: 'KindleSansDotted'">floor</td><td style="font-family: 'KindleSansDotted'">coffee</td><td style="font-family: 'KindleSansDotted'">office</td><td style="font-family: 'KindleSansDotted'">scaffold</td></tr>
+        <tr><th>Kindle Atkinson</th><td style="font-family: 'KindleAtkinson'">fifty</td><td style="font-family: 'KindleAtkinson'">floor</td><td style="font-family: 'KindleAtkinson'">coffee</td><td style="font-family: 'KindleAtkinson'">office</td><td style="font-family: 'KindleAtkinson'">scaffold</td></tr>
+        <tr><th>Kindle Atkinson Dotted</th><td style="font-family: 'KindleAtkinsonDotted'">fifty</td><td style="font-family: 'KindleAtkinsonDotted'">floor</td><td style="font-family: 'KindleAtkinsonDotted'">coffee</td><td style="font-family: 'KindleAtkinsonDotted'">office</td><td style="font-family: 'KindleAtkinsonDotted'">scaffold</td></tr>
+        <tr><th>Kindle OpenDyslexic</th><td style="font-family: 'KindleOpenDyslexic'">fifty</td><td style="font-family: 'KindleOpenDyslexic'">floor</td><td style="font-family: 'KindleOpenDyslexic'">coffee</td><td style="font-family: 'KindleOpenDyslexic'">office</td><td style="font-family: 'KindleOpenDyslexic'">scaffold</td></tr>
+    </table>
+</body>
+</html>
