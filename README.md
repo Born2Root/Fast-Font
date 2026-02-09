@@ -14,6 +14,8 @@ The project is completely open-source, so please feel free to use and distribute
 
 [DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
+For local testing, open [test.html](test.html) in your browser.
+
 
 Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts) 👍
 

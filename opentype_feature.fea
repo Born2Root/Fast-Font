@@ -41,9 +41,14 @@ feature calt {
     #BY = belarussin
     @by = [uni040E uni045E uni0456 uni0406 quoteright quotesingle];
     @BY = [uni040E.bold uni045E.bold uni0456.bold uni0406.bold quoteright.bold quotesingle.bold];
-	
-    @sp = [@de @eu @ru @uk @by];
-    @SP = [@DE @EU @RU @UK @BY];
+
+    #Ligatures - must be included so word length is calculated correctly
+    #Note: Different fonts use different glyph names (with/without .1 suffix)
+    @lig = [fi fi.1 fl fl.1 f_f f_f.1 f_f_i f_f_i.1 f_f_l f_f_l.1];
+    @LIG = [fi.bold fi.bold.1 fl.bold fl.bold.1 f_f.bold f_f.bold.1 f_f_i.bold f_f_i.bold.1 f_f_l.bold f_f_l.bold.1];
+
+    @sp = [@de @eu @ru @uk @by @lig];
+    @SP = [@DE @EU @RU @UK @BY @LIG];
 
     @az = [a-z A-Z @sp];
     @AZ = [a.bold-z.bold A.bold-Z.bold @SP];
