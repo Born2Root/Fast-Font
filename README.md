@@ -6,7 +6,7 @@ This font provides faster reading through facilitating the reading process by gu
 
 The project is completely open-source, so please feel free to use and distribute it however you want.
 
-![Demo GIF](https://github.com/Born2Root/Fast-Font/docs/Fast-Font.gif)
+![Demo GIF](https://github.com/Born2Root/Fast-Font/blob/main/docs/Fast-Font.gif)
 
 ## Demo:
 
@@ -14,7 +14,7 @@ The project is completely open-source, so please feel free to use and distribute
 
 [DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
-For local testing, open [test.html](https://github.com/Born2Root/Fast-Font/docs/test.html) in your browser.
+For local testing, open [test.html](https://github.com/Born2Root/Fast-Font/blob/main/docs/test.html) in your browser.
 
 
 Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts) 👍
@@ -57,14 +57,14 @@ This Font is based on the [OpenDyslexic](https://opendyslexic.org/) typeface des
 ### Use in Software
 In MS-Word, select the text and enable "Use Contextual Alternates" in the OpenType Features.
 
-![M$ Word](https://github.com/Born2Root/Fast-Font/docs/word.jpg)
+![M$ Word](https://github.com/Born2Root/Fast-Font/blob/main/docs/word.jpg)
 
 You can also use it for programming, i.e. in VSCodium.
 Just select your font and set `"editor.fontLigatures": true,`.
 
 Or use it as the default font in your browser:
 
-![Example.com with new sans-serif font](https://github.com/Born2Root/Fast-Font/docs/browser.jpg)
+![Example.com with new sans-serif font](https://github.com/Born2Root/Fast-Font/blob/main/docs/browser.jpg)
 
 ### Use on Kobo eReader
 
