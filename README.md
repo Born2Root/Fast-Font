@@ -6,7 +6,7 @@ This font provides faster reading through facilitating the reading process by gu
 
 The project is completely open-source, so please feel free to use and distribute it however you want.
 
-![Demo GIF](Fast-Font.gif)
+![Demo GIF](https://github.com/Born2Root/Fast-Font/docs/Fast-Font.gif)
 
 ## Demo:
 
@@ -14,7 +14,7 @@ The project is completely open-source, so please feel free to use and distribute
 
 [DEMO wich converts a PDF with the fast-reading-fonts](https://huggingface.co/spaces/Sanshruth/Bionic_Reading_Hub)
 
-For local testing, open [test.html](test.html) in your browser.
+For local testing, open [test.html](https://github.com/Born2Root/Fast-Font/docs/test.html) in your browser.
 
 
 Don't miss to check out our [other font projects!](https://github.com/Born2Root/Feature-Fonts) 👍
@@ -23,7 +23,7 @@ Don't miss to check out our [other font projects!](https://github.com/Born2Root/
 
 ## ✨ Variations:
 
-At the moment we have four different variations of the Fast-Font available.
+At the moment we have five different variations of the Fast-Font available.
 The first three are best suited for reading and offer support for the most languages.
 The Monospaced version is the best fit if you want to use it in an coding environment.
 
@@ -45,6 +45,11 @@ This Font helps you by inserting a litte dot, that is much easier to focus.
 Monospaced version intended for use in coding environment. It also supports coding ligatures. Please refer to the [FiraCode Ligature Documentation](https://github.com/tonsky/FiraCode/blob/master/extras/ligatures.png) as a reference.
 ![image](https://github.com/user-attachments/assets/6292b0b1-d7b4-4a37-8d8b-611dee0c9820)
 
+**5. Fast Font Dyslexic:**
+
+This Font is based on the [OpenDyslexic](https://opendyslexic.org/) typeface designed against some common symptoms of dyslexia.
+
+
 ---
 
 ## ⁉️ How to use the Font:
@@ -52,14 +57,14 @@ Monospaced version intended for use in coding environment. It also supports codi
 ### Use in Software
 In MS-Word, select the text and enable "Use Contextual Alternates" in the OpenType Features.
 
-![M$ Word](word.jpg)
+![M$ Word](https://github.com/Born2Root/Fast-Font/docs/word.jpg)
 
 You can also use it for programming, i.e. in VSCodium.
 Just select your font and set `"editor.fontLigatures": true,`.
 
 Or use it as the default font in your browser:
 
-![Example.com with new sans-serif font](browser.jpg)
+![Example.com with new sans-serif font](https://github.com/Born2Root/Fast-Font/docs/browser.jpg)
 
 ### Use on Kobo eReader
 
