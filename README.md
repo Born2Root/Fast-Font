@@ -2,6 +2,8 @@
 
 > **A** **fo**nt **t**o **he**lp **y**ou **re**ad **fas**ter.
 
+– Fork pushes a universal browser addon. Tampermonkey is used in my case. Iphone usecase, and works on sites like perlego. Some glitching to be expected, on Firefox you can scale using text-only to reduce glitches.
+
 This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word. This allows you to read in supersonic speed.
 
 The project is completely open-source, so please feel free to use and distribute it however you want.
