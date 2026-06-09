@@ -2,8 +2,6 @@
 
 > **A** **fo**nt **t**o **he**lp **y**ou **re**ad **fas**ter.
 
-– Fork pushes a universal browser addon. Tampermonkey is used in my case. Iphone usecase, and works on sites like perlego. Some glitching to be expected, on Firefox you can scale using text-only to reduce glitches.
-
 This font provides faster reading through facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word. This allows you to read in supersonic speed.
 
 The project is completely open-source, so please feel free to use and distribute it however you want.
@@ -68,6 +66,13 @@ Just select your font and set `"editor.fontLigatures": true,`.
 Or use it as the default font in your browser:
 
 ![Example.com with new sans-serif font](https://github.com/Born2Root/Fast-Font/blob/main/docs/browser.jpg)
+
+### Use in the Browser on random Websites
+
+Thank you @P4Steve who submitted a solution to use FastFont on Websites using your Browser.
+You can use universal browser addons like Tampermonkey that also works on mobile Browsers.
+Just install Tampermonkey to your browser and load the config file, that you can find the repo [AnyDeviceFastSerifBrowse.user.js](https://github.com/Born2Root/Fast-Font/blob/main/AnyDeviceFastSerifBrowse.user.js)
+Still you can expect some glitching, but in general it should work. On Firefox you can scale using text-only to reduce glitches.
 
 ### Use on Kobo eReader
 
