@@ -74,6 +74,21 @@ You can use universal browser addons like Tampermonkey that also works on mobile
 Just install Tampermonkey to your browser and load the config file, that you can find the repo [AnyDeviceFastSerifBrowse.user.js](https://github.com/Born2Root/Fast-Font/blob/main/AnyDeviceFastSerifBrowse.user.js)
 Still you can expect some glitching, but in general it should work. On Firefox you can scale using text-only to reduce glitches.
 
+### Use in Firefox Reader-Mode
+
+Thank you @D1yt who submitted this tutorial.
+It shows you how you can add Fast Fonts to Firefox Reader Mode as selectable fonts.
+
+1. Install the fonts.
+2. Open Firefox’s `about:config` page.
+3. Search for `reader.font_type.values`.
+4. Set the value to:
+```json
+["sans-serif","serif","monospace","Fast_Sans","Fast_Serif","Fast_Mono","Fast_Sans-Dotted","Fast OpenDyslexic"]
+```
+Make sure to replace these with the actual font family names installed on your system.
+5. When viewing a Reader Mode–compatible page, you can now switch to those fonts in the Reader Mode font menu.
+
 ### Use on Kobo eReader
 
 If you have a Kobo Reader with KoReader-Extension you can also use it there.
