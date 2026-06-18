@@ -139,7 +139,7 @@ The base fonts are:
 - Fast_Sans = [Inter](https://github.com/rsms/inter)
 - Fast_Serif = Bookerly
 - Fast_Mono = [FiraCode](https://github.com/tonsky/FiraCode)
-- Fast_OpenDyslexic = [OpenDyslexic](https://opendyslexic.org/
+- Fast_OpenDyslexic = [OpenDyslexic](https://opendyslexic.org/)
 
 ---
 
