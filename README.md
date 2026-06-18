@@ -134,6 +134,13 @@ To use the font in other languages world wide it is necessary to enrich it with 
 With about 120 special characters nearly all European languages are covered.
 See [opentype_feature.fea](opentype_feature.fea) for an elaborate example.
 
+## What are the base fonts that were used
+The base fonts are:
+- Fast_Sans = [Inter](https://github.com/rsms/inter)
+- Fast_Serif = Bookerly
+- Fast_Mono = [FiraCode](https://github.com/tonsky/FiraCode)
+- Fast_OpenDyslexic = [OpenDyslexic](https://opendyslexic.org/
+
 ---
 
 ## ❤️ Support:
